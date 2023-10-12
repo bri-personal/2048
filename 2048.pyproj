@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b1ebb83a-ac75-4ba7-baeb-264b8a992166}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="board.txt" />
+    <Content Include="highscore.txt" />
+    <Content Include="img\cupcake\1024.jpg" />
+    <Content Include="img\cupcake\128.png" />
+    <Content Include="img\cupcake\16.jpg" />
+    <Content Include="img\cupcake\2.jpg" />
+    <Content Include="img\cupcake\2048.jpg" />
+    <Content Include="img\cupcake\256.jpg" />
+    <Content Include="img\cupcake\32.jpg" />
+    <Content Include="img\cupcake\4.jpg" />
+    <Content Include="img\cupcake\4096.jpg" />
+    <Content Include="img\cupcake\512.jpg" />
+    <Content Include="img\cupcake\64.jpg" />
+    <Content Include="img\cupcake\8.jpg" />
+    <Content Include="img\cupcake\8192.jpg" />
+    <Content Include="img\icon.png" />
+    <Content Include="img\start.jpg" />
+    <Content Include="img\sus\1024.png" />
+    <Content Include="img\sus\128.png" />
+    <Content Include="img\sus\16.png" />
+    <Content Include="img\sus\2.png" />
+    <Content Include="img\sus\2048.png" />
+    <Content Include="img\sus\256.png" />
+    <Content Include="img\sus\32.png" />
+    <Content Include="img\sus\4.png" />
+    <Content Include="img\sus\4096.png" />
+    <Content Include="img\sus\512.png" />
+    <Content Include="img\sus\64.png" />
+    <Content Include="img\sus\8.png" />
+    <Content Include="img\sus\8192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="sprites.py" />
+    <Compile Include="_old\even newer\main.py" />
+    <Compile Include="_old\even newer\settings.py" />
+    <Compile Include="_old\even newer\sprites.py" />
+    <Compile Include="_old\it works\main.py" />
+    <Compile Include="_old\it works\settings.py" />
+    <Compile Include="_old\it works\sprites.py" />
+    <Compile Include="_old\newer\main.py" />
+    <Compile Include="_old\newer\settings.py" />
+    <Compile Include="_old\newer\sprites.py" />
+    <Compile Include="_old\oldest\main.py" />
+    <Compile Include="_old\oldest\settings.py" />
+    <Compile Include="_old\oldest\sprites.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img" />
+    <Folder Include="img\cupcake" />
+    <Folder Include="img\sus" />
+    <Folder Include="_old\" />
+    <Folder Include="_old\even newer" />
+    <Folder Include="_old\it works" />
+    <Folder Include="_old\newer" />
+    <Folder Include="_old\oldest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
